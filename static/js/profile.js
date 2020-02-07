@@ -16,11 +16,7 @@ function initializePage() {
 }
 
 
-<<<<<<< HEAD:js/profile.js
 function projectClick(e) {
-=======
-function projectClick(e){
->>>>>>> 005407c8b9fb19aa98299d17dbd7fe2c5148a603:static/js/profile.js
     // prevent the page from reloading 
     e.preventDefault();
     // In an event handler, $(this) refers to 

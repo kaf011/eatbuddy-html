@@ -28,6 +28,14 @@ hr{
 
 }
 
+.avatar{
+  border-radius: 50%;
+  width: 6rem;
+  float: center; /* clear: left; meaning empty-float, prevent it from wrapping img to the left */
+  border: 5px solid #494949 !important;
+
+}
+
 
 
 .info {
