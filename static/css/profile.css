@@ -15,10 +15,12 @@ hr{
 }
 .back-btn{
   /* font-family: "Montserrat"; */
-  margin: 5% 3% 5% 0;
+  font-size:10px;
 }
 .next-btn{
-  margin: 5% 3% 5% 0;
+  position: absolute;
+  right: 20px;
+  font-size:10px;
 }
 .avatar-img{
   border-radius: 50%;
@@ -36,8 +38,6 @@ hr{
 
 }
 
-
-
 .info {
     display: flex;
     /* justify-content: space-between; */
@@ -48,8 +48,6 @@ hr{
   text-transform: uppercase;
   text-decoration: none;
   background: #ffffff;
-
-
   border-radius: 50px;
   border: 2px solid #494949 !important;
   /* display: inline-block; */
