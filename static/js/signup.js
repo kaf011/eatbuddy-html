@@ -79,3 +79,14 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 })
+
+
+$(".avatar-img").click(function(e){
+	$(".avatar-img").removeClass("avatar-img-selected");
+	$(this).toggleClass("avatar-img-selected");
+	// $(this).css({'border-radius': '50%', 'width': '6rem',
+	//
+  // 'border': 4px solid #494949,
+	// 'margin':10px,
+	// 'padding':2px});
+});
