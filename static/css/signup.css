@@ -156,15 +156,14 @@ body {
   border: 1px solid #494949;
 	margin:10px;
 }
-.avatar-img:hover{
+/* .avatar-img:hover{
   border-radius: 50%;
   width: 6rem;
-  /*float: left; /* clear: left; meaning empty-float, prevent it from wrapping img to the left */
   border: 1px solid #494949;
 	margin:10px;
 	padding:2px;
-}
-.avatar-img::selection{
+} */
+.avatar-img-selected{
   border-radius: 50%;
   width: 6rem;
   /*float: left; /* clear: left; meaning empty-float, prevent it from wrapping img to the left */
